@@ -3,7 +3,9 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import GearSection from "@/components/GearSection";
+import PortfolioSection from "@/components/PortfolioSection";
 import ServicesSection from "@/components/ServicesSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -29,7 +31,9 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <GearSection />
+      <PortfolioSection />
       <ServicesSection />
+      <TestimonialsSection />
       <AboutSection />
       <ContactSection />
       <Footer />

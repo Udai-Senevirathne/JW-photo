@@ -101,9 +101,6 @@ const AboutSection = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.7, type: "spring", stiffness: 200 }}
-              animate={{ rotate: 360 }}
-              // @ts-ignore
-              transition2={{ rotate: { duration: 20, repeat: Infinity, ease: "linear" } }}
             />
           </motion.div>
 
